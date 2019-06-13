@@ -1,0 +1,634 @@
+5/29/19
+
+Output from running examples in PowerShell
+
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+
+PS C:\Users\GBTC405007ur> dir
+
+
+    Directory: C:\Users\GBTC405007ur
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        1/10/2018   2:25 PM                .anaconda
+d-----        1/10/2018   4:48 PM                .android
+d-----        1/10/2018   2:26 PM                .conda
+d-----        3/29/2018  10:06 AM                .config
+d-----        1/10/2018  12:16 PM                .eclipse
+d-----        1/10/2018  11:00 AM                .idlerc
+d-----        2/21/2018   3:28 PM                .IntelliJIdea2017.3
+d-----        5/28/2019   6:10 PM                .jupyter
+d-----        1/16/2018  10:47 AM                .p2
+d-----        1/10/2018  11:29 AM                .PyCharm2017.3
+d-----        1/10/2018  12:16 PM                .tooling
+d-----        1/17/2018  10:04 AM                .WebStorm2017.3
+d-r---        5/23/2019   2:35 PM                Contacts
+d-r---        5/23/2019   2:35 PM                Desktop
+d-r---        5/23/2019   3:42 PM                Documents
+d-r---        5/28/2019   3:26 PM                Downloads
+d-r---        5/23/2019   2:35 PM                Favorites
+d-----        2/21/2018   3:37 PM                IdeaProjects
+d-----        5/28/2019   6:22 PM                ImmersiveData
+d-r---        5/23/2019   2:35 PM                Links
+d-r---        5/23/2019   2:35 PM                Music
+d-r---         5/1/2017  12:32 PM                OneDrive
+d-r---        5/23/2019   2:37 PM                Pictures
+d-r---        5/23/2019   2:35 PM                Saved Games
+d-r---        5/23/2019   2:35 PM                Searches
+d-r---        5/23/2019   2:35 PM                Videos
+-a----        1/10/2018   5:08 PM              9 .bash_history
+-a----        1/10/2018   2:25 PM             43 .condarc
+
+
+PS C:\Users\GBTC405007ur> cd .\ImmersiveData\
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> dir
+
+
+    Directory: C:\Users\GBTC405007ur\ImmersiveData
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/28/2019   5:57 PM                .ipynb_checkpoints
+-a----        5/28/2019  11:26 AM            232 ex1.py
+-a----        5/28/2019   4:29 PM            303 ex10.py
+-a----        5/28/2019   4:33 PM            303 ex10_drills.py
+-a----        5/28/2019   4:45 PM            257 ex11.py
+-a----        5/28/2019   5:00 PM            386 ex11_drills.py
+-a----        5/28/2019   5:29 PM            294 ex13.py
+-a----        5/28/2019   6:08 PM            523 ex14.py
+-a----        5/28/2019  11:33 AM            301 ex2.py
+-a----        5/28/2019  12:07 PM           1137 ex3.py
+-a----        5/28/2019   1:41 PM            917 ex4.py
+-a----        5/28/2019   2:32 PM            588 ex5.py
+-a----        5/28/2019   2:36 PM            828 ex5_drills.py
+-a----        5/28/2019   3:34 PM            507 ex6.py
+-a----        5/28/2019   3:45 PM            513 ex7.py
+-a----        5/28/2019   3:59 PM            443 ex8.py
+-a----        5/28/2019   4:08 PM            416 ex9.py
+-a----        5/28/2019   6:23 PM            787 lists.py
+-a----        5/28/2019  12:04 PM             96 my1.py
+
+
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex14.py
+Traceback (most recent call last):
+  File "ex14.py", line 5, in <module>
+    script, user_name = argv
+ValueError: not enough values to unpack (expected 2, got 1)
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 5, in <module>
+    script, first, second, third = argv
+ValueError: not enough values to unpack (expected 4, got 1)
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py
+  File "ex13.py", line 7
+    argv[1} = first
+          ^
+SyntaxError: invalid syntax
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 6, in <module>
+    argv[0] = script
+NameError: name 'script' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 5, in <module>
+    script, first, second, third# = argv
+NameError: name 'script' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 5, in <module>
+    script, first, second, third = argv
+ValueError: not enough values to unpack (expected 4, got 1)
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py
+Traceback (most recent call last):
+  File "ex13.py", line 5, in <module>
+    script, first, second, third = argv
+ValueError: not enough values to unpack (expected 4, got 1)
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex13.py 1, 2, 3
+The script is called: ex13.py
+Your first variable is: 1
+Your second variable is: 2
+Your third variable is: 3
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> dir
+
+
+    Directory: C:\Users\GBTC405007ur\ImmersiveData
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/29/2019  12:31 PM                .ipynb_checkpoints
+d-----        5/29/2019  12:21 PM                datasets
+d-----        5/29/2019  11:22 AM                printed_files
+-a----        5/28/2019  11:26 AM            232 ex1.py
+-a----        5/28/2019   4:29 PM            303 ex10.py
+-a----        5/28/2019   4:33 PM            303 ex10_drills.py
+-a----        5/28/2019   4:45 PM            257 ex11.py
+-a----        5/28/2019   5:00 PM            386 ex11_drills.py
+-a----        5/29/2019   1:11 PM            294 ex13.py
+-a----        5/28/2019   6:08 PM            523 ex14.py
+-a----        5/29/2019   1:18 PM           2618 ex15.ipynb
+-a----        5/29/2019   1:24 PM            255 ex15.py
+-a----        5/29/2019   1:26 PM            104 ex15_sample.txt
+-a----        5/28/2019  11:33 AM            301 ex2.py
+-a----        5/28/2019  12:07 PM           1137 ex3.py
+-a----        5/28/2019   1:41 PM            917 ex4.py
+-a----        5/28/2019   2:32 PM            588 ex5.py
+-a----        5/28/2019   2:36 PM            828 ex5_drills.py
+-a----        5/28/2019   3:34 PM            507 ex6.py
+-a----        5/28/2019   3:45 PM            513 ex7.py
+-a----        5/28/2019   3:59 PM            443 ex8.py
+-a----        5/28/2019   4:08 PM            416 ex9.py
+-a----        5/28/2019   6:23 PM            787 lists.py
+-a----        5/29/2019  10:03 AM           1567 lists2.py
+-a----        5/29/2019  10:12 AM           7861 Module 1 - Basic Python.ipynb
+-a----        5/29/2019  12:20 PM          25240 Module 2 - Explore Data.ipynb
+-a----        5/28/2019  12:04 PM             96 my1.py
+-a----        5/29/2019  11:52 AM             46 studentgrades1.csv
+-a----        5/29/2019  10:16 AM        5038905 testdata2.csv
+
+
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+  File "ex15.py", line 8
+    print(f:"Here's your file {filename}:")
+           ^
+SyntaxError: invalid syntax
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+Traceback (most recent call last):
+  File "ex15.py", line 6, in <module>
+    txt = oprn(filename)
+NameError: name 'oprn' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+Traceback (most recent call last):
+  File "ex15.py", line 6, in <module>
+    txt = oprn(filename)
+NameError: name 'oprn' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+Here's your file ex15_sample.txt:
+# THIS IS EXAMPLE 15 TEXT FILE
+
+Now is the time for all goof men to come to the aide of their country.
+Type the filename again:
+> filename_again
+Traceback (most recent call last):
+  File "ex15.py", line 14, in <module>
+    txt_again = open(file_again)
+FileNotFoundError: [Errno 2] No such file or directory: 'filename_again'
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+Here's your file ex15_sample.txt:
+# THIS IS EXAMPLE 15 TEXT FILE
+
+Now is the time for all good men to come to the aide of their country.
+Type the filename again:
+> ex15_sample_again.txt
+#
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+Here's your file ex15_sample.txt:
+# THIS IS EXAMPLE 15 TEXT FILE
+
+Now is the time for all good men to come to the aide of their country.
+This is example 15 sample text file.
+Type the filename again:
+> ex15sample.txt
+Traceback (most recent call last):
+  File "ex15.py", line 14, in <module>
+    txt_again = open(file_again)
+FileNotFoundError: [Errno 2] No such file or directory: 'ex15sample.txt'
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex15.py ex15_sample.txt
+Here's your file ex15_sample.txt:
+# THIS IS EXAMPLE 15 TEXT FILE
+
+Now is the time for all good men to come to the aide of their country.
+This is example 15 sample text file.
+Type the filename again:
+> ex15_sample.txt
+# THIS IS EXAMPLE 15 TEXT FILE
+
+Now is the time for all good men to come to the aide of their country.
+This is example 15 sample text file.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex16.py ex16test.txt
+We're going to erase ex16test.txt.
+If you don't want that, hot CTRL-C (^C).
+If you do want that, hit RETURN.
+?quit()
+Opening the file...
+
+Now I'm going to ask you for 3 lines.
+line 1: quit
+line 2: quit()
+line 3: Traceback (most recent call last):
+  File "ex16.py", line 21, in <module>
+    line3 = input("line 3: ")
+KeyboardInterrupt
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex16.py ex16_test.txt
+We're going to erase ex16_test.txt.
+If you don't want that, hot CTRL-C (^C).
+If you do want that, hit RETURN.
+?
+Opening the file...
+
+Now I'm going to ask you for 3 lines.
+line 1: this is line 1
+line 2: this is line 2
+line 3: this is line 3
+I'm going to write these to the file.
+And finally, we close it.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex16.py ex16_test.txt
+We're going to erase ex16_test.txt.
+If you don't want that, hot CTRL-C (^C).
+If you do want that, hit RETURN.
+?
+Opening the file...
+Truncating the file. Goodbye!
+Now I'm going to ask you for 3 lines.
+line 1: abcdefg
+line 2: hijklmnop
+line 3: qrstuvwxyz
+I'm going to write these to the file.
+And finally, we close it.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> dir
+
+
+    Directory: C:\Users\GBTC405007ur\ImmersiveData
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/29/2019  12:31 PM                .ipynb_checkpoints
+d-----        5/29/2019  12:21 PM                datasets
+d-----        5/29/2019  11:22 AM                printed_files
+-a----        5/28/2019  11:26 AM            232 ex1.py
+-a----        5/28/2019   4:29 PM            303 ex10.py
+-a----        5/28/2019   4:33 PM            303 ex10_drills.py
+-a----        5/28/2019   4:45 PM            257 ex11.py
+-a----        5/28/2019   5:00 PM            386 ex11_drills.py
+-a----        5/29/2019   1:11 PM            294 ex13.py
+-a----        5/28/2019   6:08 PM            523 ex14.py
+-a----        5/29/2019   1:50 PM           4580 ex15.ipynb
+-a----        5/29/2019   1:31 PM            254 ex15.py
+-a----        5/29/2019   1:45 PM            142 ex15_sample.txt
+-a----        5/29/2019   1:44 PM             34 ex15_sample_again.txt
+-a----        5/29/2019   2:08 PM            690 ex16.py
+-a----        5/29/2019   2:04 PM              0 ex16test.txt
+-a----        5/29/2019   2:09 PM             32 ex16_test.txt
+-a----        5/29/2019   2:21 PM            564 ex17.py
+-a----        5/29/2019   2:23 PM             22 ex17_from.txt
+-a----        5/29/2019   2:24 PM             20 ex17_to.txt
+-a----        5/28/2019  11:33 AM            301 ex2.py
+-a----        5/28/2019  12:07 PM           1137 ex3.py
+-a----        5/28/2019   1:41 PM            917 ex4.py
+-a----        5/28/2019   2:32 PM            588 ex5.py
+-a----        5/28/2019   2:36 PM            828 ex5_drills.py
+-a----        5/28/2019   3:34 PM            507 ex6.py
+-a----        5/28/2019   3:45 PM            513 ex7.py
+-a----        5/28/2019   3:59 PM            443 ex8.py
+-a----        5/28/2019   4:08 PM            416 ex9.py
+-a----        5/28/2019   6:23 PM            787 lists.py
+-a----        5/29/2019  10:03 AM           1567 lists2.py
+-a----        5/29/2019  10:12 AM           7861 Module 1 - Basic Python.ipynb
+-a----        5/29/2019  12:20 PM          25240 Module 2 - Explore Data.ipynb
+-a----        5/28/2019  12:04 PM             96 my1.py
+-a----        5/29/2019  11:52 AM             46 studentgrades1.csv
+-a----        5/29/2019  10:16 AM        5038905 testdata2.csv
+
+
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+  File "ex17.py", line 14
+    print("Does the output file exist?" {exists(to_file)})
+                                        ^
+SyntaxError: invalid syntax
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+  File "ex17.py", line 14
+    print("Does the output file exist?" {exists(to_file)}
+                                        ^
+SyntaxError: invalid syntax
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+Traceback (most recent call last):
+  File "ex17.py", line 12, in <module>
+    print(f"The input file is {len(indate)} bytes long")
+NameError: name 'indate' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+The input file is 22 bytes long
+Does the output file exist? {exists(to_file)}
+Ready, hit RETURN to continue, CTRK-C to abort.
+
+Traceback (most recent call last):
+  File "ex17.py", line 20, in <module>
+    out_file = write(indata)
+NameError: name 'write' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+The input file is 22 bytes long
+Does the output file exist? {exists(to_file)}
+Ready, hit RETURN to continue, CTRK-C to abort.
+
+Alright, all done.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_.txt
+Copying from ex17_from.txt to ex17_.txt
+The input file is 22 bytes long
+Does the output file exist? {False}
+Ready, hit RETURN to continue, CTRL-C to abort.
+
+Alright, all done.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_.txt
+Copying from ex17_from.txt to ex17_.txt
+The input file is 22 bytes long
+Does the output file exist? False
+Ready, hit RETURN to continue, CTRL-C to abort.
+
+Alright, all done.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+The input file is 22 bytes long
+Does the output file exist? True
+Ready, hit RETURN to continue, CTRL-C to abort.
+Traceback (most recent call last):
+  File "ex17.py", line 17, in <module>
+    input()
+KeyboardInterrupt
+PS C:\Users\GBTC405007ur\ImmersiveData> ^C
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+The input file is 22 bytes long
+Does the output file exist? {exists(to_file)}
+Ready, hit RETURN to continue, CTRL-C to abort.
+
+Alright, all done.
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+The input file is 22 bytes long
+Does the output file exist? {exists(to_file)}
+Ready, hit RETURN to continue, CTRL-C to abort.
+Traceback (most recent call last):
+  File "ex17.py", line 17, in <module>
+    input()
+KeyboardInterrupt
+PS C:\Users\GBTC405007ur\ImmersiveData> ^C
+PS C:\Users\GBTC405007ur\ImmersiveData> ^C
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex17.py ex17_from.txt ex17_to.txt
+Copying from ex17_from.txt to ex17_to.txt
+The input file is 22 bytes long
+Does the output file exist? True
+Ready, hit RETURN to continue, CTRL-C to abort.
+
+Alright, all done.
+PS C:\Users\GBTC405007ur\ImmersiveData> man cat
+
+NAME
+    Get-Content
+
+SYNTAX
+    Get-Content [-Path] <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+    Get-Content -LiteralPath <string[]> [-ReadCount <long>] [-TotalCount <long>] [-Tail <int>] [-Filter <string>] [-Include <string[]>] [-Exclude <string[]>] [-Force] [-Credential <pscredential>] [-UseTransaction] [-Delimiter <string>] [-Wait] [-Raw] [-Encoding {Unknown | String | Unicode | Byte | BigEndianUnicode | UTF8 | UTF7 | UTF32 | Ascii | Default | Oem | BigEndianUTF32}] [-Stream <string>]  [<CommonParameters>]
+
+
+ALIASES
+    gc
+    cat
+    type
+
+
+REMARKS
+    Get-Help cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.
+        -- To download and install Help files for the module that includes this cmdlet, use Update-Help.
+        -- To view the Help topic for this cmdlet online, type: "Get-Help Get-Content -Online" or
+           go to https://go.microsoft.com/fwlink/?LinkID=113310.
+
+
+
+
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex20.py ex20_test.txt
+First let's print the whole file:
+
+Traceback (most recent call last):
+  File "ex20.py", line 17, in <module>
+    print_all(current_file)
+NameError: name 'current_file' is not defined
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData>
+PS C:\Users\GBTC405007ur\ImmersiveData> python ex20.py ex20_test.txt
+First let's print the whole file:
+
+# line 1: Text file for example 20
+line 2: Now is the time
+line 3: for all good men
+line 4: to come to the aide of their country.
+Now let's rewind, kind of like a tape.
+Let's print three lines:
+1 # line 1: Text file for example 20
+
+2 line 2: Now is the time
+
+3 line 3: for all good men
+
+PS C:\Users\GBTC405007ur\ImmersiveData>
